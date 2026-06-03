@@ -227,7 +227,7 @@ footer a { color:var(--accent-ink); text-decoration:none; border-bottom:1px soli
         <span class="blk">██████████</span> <span class="lab">&larr; site name</span><br>
         <span class="blk">████ ███████ RD</span> <span class="lab">&larr; street address</span><br>
         <span class="blk">███████, ●● #####</span> <span class="lab">&larr; city / state / ZIP</span><br>
-        IN-TANK INVENTORY &mdash; 5 tanks: REG UNL, DIESEL, ...
+        IN-TANK INVENTORY, 5 tanks: REG UNL, DIESEL, ...
       </div>
     </div>
   </div>
@@ -487,7 +487,7 @@ function openDrawer(i){
         (r[13]?`<span class="blk">${blocks(11)}</span> <span class="lab">&larr; site name</span><br>`:'')+
         (r[14]?`<span class="blk">${blocks(4)} ${blocks(8)}</span> <span class="lab">&larr; street</span><br>`:'')+
         (r[15]?`<span class="blk">${blocks(8)}, ${r[0]} #####</span> <span class="lab">&larr; city / ZIP</span><br>`:'')+
-        (r[16]>0?`IN-TANK INVENTORY &mdash; ${r[16]} tanks${uprod?': '+uprod:''}`:'')+`</div>`
+        (r[16]>0?`IN-TANK INVENTORY, ${r[16]} tanks${uprod?': '+uprod:''}`:'')+`</div>`
       : '<p style="font-size:12.5px;color:var(--ink-3);margin:0">No site header or tank data parsed from this banner.</p>';
   }
   document.getElementById('dTitle').textContent=(r[1]?r[1]+', ':'')+(r[0]||'');

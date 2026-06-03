@@ -1,4 +1,4 @@
-# Internet-Exposed Automatic Tank Gauges — U.S. Nationwide Census
+# Internet-Exposed Automatic Tank Gauges: U.S. Nationwide Census
 
 An interactive, self-contained dashboard mapping Veeder-Root automatic tank gauge (ATG)
 controllers reachable on the public internet, built in response to the June 2, 2026 joint
@@ -17,7 +17,7 @@ Prepared by ProCircular.
 - **Networks.** Reverse-DNS and ASN breakdowns separating real carrier networks from hosting providers.
 - **Inventory.** Every host, filterable and sortable, with a sanitized per-host detail view and CSV export.
 
-This is a configuration exposure, not a software vulnerability — there are no associated CVEs for the
+This is a configuration exposure, not a software vulnerability; there are no associated CVEs for the
 device class. The risk comes from the systems being reachable from the open internet at all.
 
 ## How to view
